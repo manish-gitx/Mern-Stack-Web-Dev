@@ -1,0 +1,23 @@
+.blue{
+    background-color: blue;
+    font-size: 20px;
+
+    display: inline;
+    font-weight: normal;
+
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+    font-size: 32px;
+    font-weight: bold;
+}
+.cyan{
+    background-color: cyan;
+    display: block;
+}
+body{
+    background-color: pink;
+}
