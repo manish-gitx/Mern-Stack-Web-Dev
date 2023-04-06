@@ -1,0 +1,23 @@
+h1{
+    background-color: blue;
+    color: aqua;
+    width: 150px;
+    height: 150px;
+   
+}
+body{
+    background-color: greenyellow;
+    
+}
+div{
+    background-color: yellow;
+    color: green;
+    width: 300px;
+    height: 300px;;
+}
+aside{
+    background-color: pink;
+    color: red;
+    width: 200px;
+    height: 200px;
+}
