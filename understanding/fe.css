@@ -1,0 +1,20 @@
+.box1{
+    display: flex;
+    background: red;
+    height: 70vh;
+    width: 100%;
+    flex-grow: 3;
+   
+}
+.box2{
+    display: flex;
+    background-color: pink;
+    height: 20vh;
+    flex-shrink: 0;
+
+}
+body{
+    display: flex;
+    max-height: 100vh;
+    flex-direction: column;
+}
