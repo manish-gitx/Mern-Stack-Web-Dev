@@ -1,0 +1,49 @@
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+nav ul li{
+    list-style:none;
+    margin: 2px;
+    padding:2px;
+    flex-shrink: 0;
+}
+*{
+    margin: 0;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 20px;
+    flex-grow: 1;
+
+    
+}
+.logo{
+    height: 100px;
+    
+}
+.down{
+    background: rgb(183, 178, 178);
+    padding: 10px 5px;
+    border-bottom: 2px solid grey;
+}
+.footer{
+    display:flex ;
+    flex-shrink: 0
+}
+.bar{
+    display: flex;
+    background-color:aqua;
+    height: 50px;
+    width: 100px;
+}
+.search{
+    justify-content: center;
+}
