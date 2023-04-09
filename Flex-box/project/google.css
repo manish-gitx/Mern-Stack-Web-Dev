@@ -18,16 +18,15 @@ nav ul li{
 }
 .middle{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 50px 20px;
+    align-items: center;
+    justify-content: center; 
+    border: 2px solid black;
     flex-grow: 1;
-
-    
 }
 .logo{
-    height: 100px;
-    
+    background: red;
+    height: 150px;
+    width: 70%;
 }
 .down{
     background: rgb(183, 178, 178);
@@ -39,11 +38,9 @@ nav ul li{
     flex-shrink: 0
 }
 .bar{
-    display: flex;
-    background-color:aqua;
-    height: 50px;
+    background: blue;
+    height: 100px;
     width: 100px;
 }
-.search{
-    justify-content: center;
-}
+
+
