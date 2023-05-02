@@ -1,10 +1,26 @@
 .box1{
     display: flex;
-    background: red;
     height: 70vh;
     width: 100%;
-    flex-grow: 3;
-   
+    border: 2px solid black;
+}
+.child1{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+.child4{
+    background-color:blue ;
+    height: 100px;
+    width: 100px;
+}
+.child2{
+    background-color:cyan ;
+    height: 100px;
+    width: 100px;
 }
 .box2{
     display: flex;
@@ -15,6 +31,7 @@
 }
 body{
     display: flex;
+    background-color: yellow;
     max-height: 100vh;
     flex-direction: column;
 }
