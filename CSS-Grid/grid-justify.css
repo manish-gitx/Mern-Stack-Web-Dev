@@ -1,0 +1,38 @@
+.web{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    grid-template-areas: "header header"
+    "body fotter"
+    " content content "
+  
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: brown;
+    grid-area: header;
+    height: 100px;
+}
+.body{
+    background-color: pink;
+    grid-area: body;
+    height: 100px;
+}
+.content{
+    background-color: blue;
+    grid-area: content;
+    height: 100px;
+
+}
+.fotter{
+    background-color: red;
+    grid-area: fotter;
+    height: 100px;
+}
