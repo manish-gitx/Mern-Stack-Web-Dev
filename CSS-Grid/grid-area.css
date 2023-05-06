@@ -1,0 +1,40 @@
+.web{
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr ;
+    /* gap: 0 20px; */
+    grid-template-areas: "header . fotter"
+    "body body body"
+    " content content ."
+    /* there are two ways to fill gaps one way
+    is use gap:10px(row) 20px(col)
+    another way is create a new row or col
+    grid-template */
+
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: brown;
+    grid-area: header;
+    padding: 50px 0;
+}
+.body{
+    background-color: pink;
+    grid-area: body;
+    padding: 50px 0;
+}
+.content{
+    background-color: blue;
+    grid-area: content;
+    padding: 50px 0;
+
+}
+.fotter{
+    background-color: red;
+    grid-area: fotter;
+    padding: 50px 0;
+}
