@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey</title>
+</head>
+<body>
+    <h1 id="title">Survey Page</h1>
+    <p id="description">Please fill the below contents</p>
+    <form id="survey-form" >
+        <div>
+            <label id="name-label" for="name">Name</label>  
+            <input id="name" type="text" placeholder="Please Enter"  required>
+
+        </div>
+        <div>
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" placeholder="Please Enter" required>
+        </div>
+    <div>
+        <label id="number-label" for="number">Number</label>
+        <input type="number" id="number" min="1" max="100"  
+        placeholder="Please Enter" required>
+    </div>
+    <div>
+        <select id="dropdown">
+            <option>0-10</option>
+            <option>10-20</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="r1">Male</label>
+            <input id="r1" type="radio" name="gender" value="male" >
+        <label>
+            <input type="radio" name="gender" value="female">
+            Female
+          </label>
+          
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="vechile" value="Car" >
+            Car
+        </label>
+
+        <label>
+            <input type="checkbox" name="vechile" value="Bike">
+            Bike
+        </label>
+
+        <label>
+            <input type="checkbox" name="vechile" value="cycle">
+            cycle 
+        </label>
+
+
+    </div>
+    <div>
+        <label for="area">
+            Give Us Feedback to improve 
+        </label>
+        <textarea id="area" cols="30" rows="10"></textarea>
+    </div>
+    <button id="submit">SUBMIT</button>
+    </form>
+    
+</body>
+</html>
