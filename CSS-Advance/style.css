@@ -1,0 +1,19 @@
+
+body{
+    background-color: pink;
+}
+@media screen and (min-width:500px) and (max-width:600px){
+    #container{
+        padding: 0 10px;
+        display: none;
+        width: 100%;
+    }
+   .floatleft{
+    height: auto;
+    max-width: 100%;
+   }
+   
+}
+.floatleft{
+    margin-bottom: 20px;
+}
