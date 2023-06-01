@@ -1,0 +1,135 @@
+
+h1{
+    font-family:"Source Sans Pro, Helvetica", sans-serif ;
+    font-size: 80px;
+    font-style: normal;
+    color:#ffffff ;
+}
+body{
+    font-size: 16px;
+    font-family:Merriweather, Georgia, serif ;
+    color: #212931;  
+    background-color:#1e252d;  
+
+}
+
+h2{
+    font-size: 64px;
+    font-style: normal;
+    font-family:"Source Sans Pro", Helvetica, sans-serif ;
+    color: #212931;
+}
+h3{
+    font-family:"Source Sans Pro", Helvetica, sans-serif ;
+    font-size: 12.8px;
+    font-style: normal;
+    color: #717981;
+}
+#header{
+    text-align:center;
+    font-style: normal;
+    padding-top: 300px;
+   
+    color:#ffffff ;
+    font-size: 16px;
+    font-family:Merriweather, Georgia, serif ;
+    background-image: url('/CSS-Advance/Projects/HTML5 Massively Landing Page/assets/images/bg.jpg');
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    font-style: normal;
+    background-color: #212931;
+    opacity:0.7;
+    color: #ffffff;
+    
+    align-items: center;
+    font-size: 12.8px;
+    font-family:"Source Sans Pro, Helvetica", sans-serif;
+   
+}
+#tab-article{
+    background-color: #ffffff;
+    color:  #212931;
+    height: 40px;
+    text-align: center;
+    /* height: 40px; */
+   
+    
+}
+.tabs{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+   
+}
+.icons{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 5px;
+}
+main{
+    margin: 0px 50px;
+    
+    text-align: center;
+    background-color: #ffffff;
+}
+button{
+    padding: 15px 40px;
+    background-color: #ffffff;
+    color: #212931;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid #212931 ;
+    font-style: normal;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px 0px;
+
+}
+ .container .element img{
+    height: 200px;
+    width: auto;
+}
+
+.element{
+    border: 1px solid  #eeeeee;
+    padding: 40px 0px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #717981;
+    font-family:"Source Sans Pro", Helvetica, sans-serif ;
+    justify-items: center;
+    margin-bottom: 200px;
+
+}
+.social{
+    display:  flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+.social span{
+    margin-right: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    color: #000000;
+    font-family:"Source Sans Pro", Helvetica, sans-serif ;
+}
+.ele span:nth-child(2){
+    font-size: 16px;
+    font-family:Merriweather, Georgia, serif ;
+    color: #212931;    
+}
+.info{
+    margin: 0px 20px;
+}
