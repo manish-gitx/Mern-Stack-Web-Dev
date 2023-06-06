@@ -5,12 +5,17 @@ h1{
     font-style: normal;
     color:#ffffff ;
 }
+
 body{
     font-size: 16px;
     font-family:Merriweather, Georgia, serif ;
     color: #212931;  
-    background-color:#1e252d;  
-
+    background-color:#1e252d;
+    margin: 0px;
+}
+.arrow{
+    height: 50px;
+    width: auto;
 }
 
 h2{
@@ -46,15 +51,17 @@ nav{
     align-items: center;
     font-size: 12.8px;
     font-family:"Source Sans Pro, Helvetica", sans-serif;
-   
 }
 
 .tabs{
     padding: 10px 10px;
     display: flex;
-    gap: 20px;
     align-items: center;
    
+}
+.tabs a{
+    border: 1px solid  #eeeeee ;
+    padding: 5px;
 }
 .icons{
     display:flex;
